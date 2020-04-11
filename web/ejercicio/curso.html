@@ -57,11 +57,61 @@
 <hr>
 <h2>Imagenes en html </h2>
 
-<img src="" alt="Img app" title = "Mono Android">
+<div align="center"> <img src="../Imagenes/leon1.jpg" alt="Img app" title = "Mono Android" width="250px" height="250px">
+</div>
 
+<!--Tablas -->
+<hr>
+<h3>Tablas</h3>
 
+<table border="1">
+    <tr> <!--Columns-->
+        <th >Nombre</th>  <!--Encabezados-->
+        <th>Apellido</th>
+        <th>Pais</th>
+    </tr>
+    <tr>
+        <td  >Martin</td>
+        <td>villela</td>
+        <td>Gutierrez</td>
+    </tr>
+    <tr>
+        <td  colspan="2">Martin</td>
+        <td>Gutierrez</td>
+    </tr>
+</table>
 
+<!--Formularios-->
+<hr>
+<h3>Formulario</h3>
 
+<form >
+    <p>
+    <label for="name">Nombre</label>
+    <br>
+    <input type="text" name="name" placeholder="Escribe tu nombre"/>
+</p>
+
+<p>
+        <label for="descripcion">descripcion</label>
+        <br>
+    <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+</p>
+<p>
+
+    <br>
+<input type="radio" name="genero" value="Hombre"/>Hombre <br/> 
+<input type="radio" name="genero" value="mujer"/>mujer <br/> 
+<input type="radio" name="genero" value="indeciso"/>indeciso <br/> 
+</p>
+<select name="" id="">
+    <option value="">hombre</option>
+    <option value="">mujer</option>
+    <option value="">indeciso</option>
+</select>
+<p></p>
+<input type="submit" value="Enviar Formulario" />|
+</form>
 
 </body>
 </html>
